@@ -166,3 +166,83 @@ footer a {
     text-decoration: none;
     margin: 0 12px;
 }
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background-color: #5b4bdb;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.project-card h3 {
+    color: #5b4bdb;
+    margin-top: 0;
+}
+
+.project-card h4 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    line-height: 1.5;
+}
+
+.project-card .tech {
+    font-size: 14px;
+    color: #666;
+}
+
+.internships {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.internship-card {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.internship-card h3 {
+    color: #5b4bdb;
+    margin-top: 0;
+}
+
+.internship-card h4 {
+    margin-bottom: 10px;
+}
+
+.internship-card p {
+    line-height: 1.5;
+}
+
+.internship-card .tech {
+    font-size: 14px;
+    color: #666;
+}
